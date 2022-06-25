@@ -1,0 +1,16 @@
+@include atSmall {
+    .p-top-large {
+      padding-top: 3.5rem;
+    }
+    .p-bottom-large {
+      padding-bottom: 3.5rem;
+    }
+  }
+
+  select#gtranslate_selector {
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: none;
+}

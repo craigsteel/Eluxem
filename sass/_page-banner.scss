@@ -1,0 +1,75 @@
+.featured-image {
+	&__page-head {
+		h2 {
+			position: absolute;
+			top: 4.5em;
+			color: white;
+			font-size: 1.8em;
+			line-height: 1em;
+			left: 7%;
+			width: 90%;
+
+      @media (min-width: $xs) {
+        top: 4em;
+        font-size: 2em;
+        left: 10%;
+      }
+
+      @media (min-width: $sm) {
+        top: 2.6em;
+        font-size: 3em;
+      }
+
+      @media (min-width: $md) {
+        top: 4em;
+        width: 80%;
+      }
+
+      @media (min-width: $lg) {
+        top: 3.2em;
+        font-size: 4em;
+      }
+		}
+	}
+}
+
+.text-box {
+
+  @media (min-width: $lg) {
+    margin-left: 5%;
+    width: 74%;
+    padding-right: 10%;
+  }
+}
+
+.heading-primary h1 {
+  margin: 0.2em 0 0.5em 0em;
+
+  @media (min-width: $lg) {
+    margin: 0.2em 0 0.2em 0em;
+  }
+}
+
+.heading-primary {
+  &__corner-br--p2 {
+    margin-left: 95%;
+  }
+}
+
+.services__boxes {
+  background-color: rgba(28, 2, 2, 0.7);
+}
+
+select#gtranslate_selector {
+    text-decoration: none;
+    line-height: 1;
+    white-space: nowrap;
+    font-size: .7em;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
